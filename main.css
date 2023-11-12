@@ -1,0 +1,37 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f08ce8;
+}
+
+#container {
+    text-align: center;
+}
+
+#tarefas {
+    list-style: none;
+    padding: 0;
+}
+
+#tarefas li {
+    cursor: pointer;
+    margin: 8px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    transition: background-color 0.3s;
+
+}
+
+#tarefas li:hover {
+    background-color: rgba(129, 248, 155, 0.603);
+}
+
+#tarefas li.completed {
+    text-decoration: line-through;
+}
